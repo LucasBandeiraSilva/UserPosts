@@ -1,0 +1,39 @@
+<main>
+  <div class="container">
+    <form action="/add" method="post">
+      <label for="titulo">titulo</label>
+
+      <input type="text" name="titulo" />
+      <label for="conteudo">Conteudo</label>
+      <input type="text" name="Conteudo" />
+      <button type="submit">enviar</button>
+    </form>
+  </div>
+</main>
+
+<style>
+   main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 600px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+  }
+
+</style>
