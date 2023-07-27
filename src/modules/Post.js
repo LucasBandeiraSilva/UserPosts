@@ -6,20 +6,20 @@ const post = sequelize
     titulo: {
       type: DataTypes.STRING,
     },
-    postagem: {
+    conteudo: {
       type: DataTypes.TEXT,
     },
   })
   
  
 
-  post
-  .sync({ force: true })
-  .then(() => {
-    console.log("Sicronizado!");
-  })
-  .catch((erro) => {
-    console.log("Ocoreu um erro: " + erro);
-  });
+  // post
+  // .sync({ force: true })
+  // .then(() => {
+  //   console.log("Sicronizado!");
+  // })
+  // .catch((erro) => {
+  //   console.log("Ocoreu um erro: " + erro);
+  // });
 
    export default post
